@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lenguyenthaikhang.demotkthp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DemoTKTHP">
+        <activity android:name=".demochinh"></activity>
+        <activity android:name=".ViewSubclassing" />
+        <activity android:name=".VariableAsListener" />
+        <activity android:name=".ExplicitClassListener" />
+        <activity android:name=".AnonymousListener" />
+        <activity android:name=".ActivityAsListener" />
+        <activity android:name=".OnclickXML" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
