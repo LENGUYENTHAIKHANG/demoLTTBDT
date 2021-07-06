@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnclickXML"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onclick XML"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo máy tính đơn giản "
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#2196F3"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nhập số a: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/edt1"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nhập số b: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:inputType="number"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/edt2"
+            />
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_gravity="center"
+      android:layout_margin="30dp">
+      <Button
+          android:onClick="tong"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:text="+"
+          android:textStyle="bold"
+          android:textSize="23dp"
+          android:layout_margin="10dp"
+          android:id="@+id/btn1"
+          tools:ignore="OnClick" />
+      <Button
+          android:onClick="hieu"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:text="-"
+          android:textStyle="bold"
+          android:textSize="23dp"
+          android:layout_margin="10dp"
+          android:id="@+id/btn2"
+          tools:ignore="OnClick" />
+      <Button
+          android:onClick="nhan"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:text="x"
+          android:textStyle="bold"
+          android:textSize="23dp"
+          android:layout_margin="10dp"
+          android:id="@+id/btn3"
+          tools:ignore="OnClick" />
+      <Button
+          android:onClick="chia"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:text="/"
+          android:textStyle="bold"
+          android:textSize="23dp"
+          android:layout_margin="10dp"
+          android:id="@+id/btn4"
+          tools:ignore="OnClick" />
+
+  </LinearLayout>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:hint="KẾT QUẢ"
+        android:id="@+id/tv1"
+        android:inputType="numberDecimal"
+
+        />
+
+
+
+
+</LinearLayout>
