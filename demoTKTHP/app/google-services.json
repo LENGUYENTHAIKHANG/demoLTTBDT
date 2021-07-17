@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1030304976854",
+    "firebase_url": "https://demotkthp-default-rtdb.firebaseio.com",
+    "project_id": "demotkthp",
+    "storage_bucket": "demotkthp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030304976854:android:fbfebb519dfb23c31a5e77",
+        "android_client_info": {
+          "package_name": "com.lenguyenthaikhang.demotkthp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030304976854-ev19pdjeitq62g5asq31j0djs0pj06t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx97xGzB6DinxqzNYSXG7Y9W05kEm2uG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030304976854-ev19pdjeitq62g5asq31j0djs0pj06t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
